@@ -83,7 +83,6 @@ setup(
     packages=find_packages(exclude=["examples*"]),
     install_requires=[
         "graphql-core>=3.1,<3.4",
-        "graphql-relay>=3.1,<3.3",
     ],
     tests_require=tests_require,
     extras_require={"test": tests_require, "dev": dev_requires},
